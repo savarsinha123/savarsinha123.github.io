@@ -63,17 +63,17 @@ title: Home
 
         /* Dark mode styles (default) */
         body {
-            background-color: var(--background-dark);
-            color: var(--text-dark);
+            background-color: var(--background-light);
+            color: var(--text-light);
             position: relative;
             /* Enable relative positioning */
         }
 
         /* Light mode styles (for optional toggling) */
-        .light-mode {
+        /* .light-mode {
             background-color: var(--background-light);
             color: var(--text-light);
-        }
+        } */
 
         /* Toggle mode button styles */
         #theme-toggle {
@@ -89,18 +89,18 @@ title: Home
 
 <body>
     <!-- Toggle mode button -->
-    <button id="theme-toggle">Toggle Dark Theme</button>
+    <!-- <button id="theme-toggle">Toggle Dark Theme</button> -->
 
     <!-- Rest of your webpage content -->
     <p>Hello, my name is Savar Sinha, and this is my personal website!</p>
 
-    <script>
+    <!-- <script>
         // JavaScript to toggle dark/light mode
         const toggleButton = document.getElementById('theme-toggle');
         toggleButton.addEventListener('click', () => {
             document.body.classList.toggle('light-mode');
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
