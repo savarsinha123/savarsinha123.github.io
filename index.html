@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Home
 ---
 
@@ -11,15 +11,21 @@ title: Home
     </p>
     <style>
         @keyframes typing {
-        from { width: 0; }
+            from {
+                width: 0;
+            }
         }
+
         @keyframes blink-caret {
-        50% { border-color: transparent; }
+            50% {
+                border-color: transparent;
+            }
         }
+
         #typed-name {
-        border-right: 2px solid #000;
-        padding-right: 3px;
-        animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
+            border-right: 2px solid #000;
+            padding-right: 3px;
+            animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
         }
     </style>
     <script>
@@ -28,11 +34,11 @@ title: Home
         let currentChar = 0;
 
         function type() {
-        if (currentChar < name.length) {
-            nameElement.textContent += name.charAt(currentChar);
-            currentChar++;
-            setTimeout(type, 100);
-        }
+            if (currentChar < name.length) {
+                nameElement.textContent += name.charAt(currentChar);
+                currentChar++;
+                setTimeout(type, 100);
+            }
         }
 
         type();
@@ -40,9 +46,10 @@ title: Home
 </div>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="google-site-verification" content="56vhMFyAnKj1SptJsMc2LbpcadEiabKMccCwL-ChM7c" />
     <title>Your Personal Website</title>
     <style>
@@ -53,11 +60,13 @@ title: Home
             --background-dark: #1e1e1e;
             --text-dark: #ffffff;
         }
+
         /* Dark mode styles (default) */
         body {
             background-color: var(--background-dark);
             color: var(--text-dark);
-            position: relative; /* Enable relative positioning */
+            position: relative;
+            /* Enable relative positioning */
         }
 
         /* Light mode styles (for optional toggling) */
@@ -68,12 +77,16 @@ title: Home
 
         /* Toggle mode button styles */
         #theme-toggle {
-            position: absolute; /* Positioning relative to the body */
-            top: 10px; /* Adjust the top distance as needed */
-            right: 20px; /* Adjust the right distance as needed */
+            position: absolute;
+            /* Positioning relative to the body */
+            top: 10px;
+            /* Adjust the top distance as needed */
+            right: 20px;
+            /* Adjust the right distance as needed */
         }
     </style>
 </head>
+
 <body>
     <!-- Toggle mode button -->
     <button id="theme-toggle">Toggle Dark Theme</button>
@@ -89,5 +102,5 @@ title: Home
         });
     </script>
 </body>
-</html>
 
+</html>
