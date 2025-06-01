@@ -3,24 +3,64 @@ layout: home
 ---
 
 <!DOCTYPE html>
+<html lang="en">
 
-<img src="/assets/images/profile.jpg" alt="Savar Sinha" class="profile-photo"
-    style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
-
-<div style="text-align: center;">
-    <p style="font-family: 'Courier New', monospace; font-size: 48px;">
-        <span id="typed-name"></span>
-    </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="56vhMFyAnKj1SptJsMc2LbpcadEiabKMccCwL-ChM7c" />
+    <title>Savar Sinha</title>
     <style>
+        /* Define CSS variables for colors */
+        :root {
+            --background-light: #ffffff;
+            --text-light: #000000;
+            --background-dark: #1e1e1e;
+            --text-dark: #ffffff;
+        }
+
+        /* Main styles */
+        body {
+            background-color: var(--background-light);
+            color: var(--text-light);
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Profile photo styles */
+        .profile-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .profile-photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: 50% 30%;
+            /* Adjust these to zoom on face */
+            border: 4px solid #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            display: block;
+            transform: scale(1.05);
+            /* Slight zoom effect */
+        }
+
+        /* Typed name animation */
         @keyframes typing {
             from {
-                width: 0;
+                width: 0
             }
         }
 
         @keyframes blink-caret {
             50% {
-                border-color: transparent;
+                border-color: transparent
             }
         }
 
@@ -28,11 +68,52 @@ layout: home
             border-right: 2px solid #000;
             padding-right: 3px;
             animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
+            font-family: 'Courier New', monospace;
+            font-size: 48px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Content styles */
+        .content {
+            margin-top: 30px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
+</head>
+
+<body>
+    <div class="profile-container">
+        <img src="/assets/images/profile.jpg" alt="Savar Sinha" class="profile-photo">
+    </div>
+
+    <div style="text-align: center;">
+        <p id="typed-name"></p>
+    </div>
+
+    <div class="content">
+        <p>Hello, my name is Savar Sinha, and this is my personal website! I am
+            currently an undergraduate student at Caltech studying computer science
+            and physics, and I will be graduating in June 2026. You can learn more
+            about my academic background from my <a href="https://savarsinha123.github.io/about/">About</a>
+            page. Otherwise, feel free
+            to learn about my research and teaching experience, including my
+            extensive repertoire of high-quality lectures!
+        </p>
+    </div>
+
     <script>
+        // Typing animation
         const nameElement = document.getElementById("typed-name");
-        const name = "Savar Sinha"; // Name here
+        const name = "Savar Sinha";
         let currentChar = 0;
 
         function type() {
@@ -45,71 +126,6 @@ layout: home
 
         type();
     </script>
-</div>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="google-site-verification" content="56vhMFyAnKj1SptJsMc2LbpcadEiabKMccCwL-ChM7c" />
-    <title>Your Personal Website</title>
-    <style>
-        /* Define CSS variables for colors */
-        :root {
-            --background-light: #ffffff;
-            --text-light: #000000;
-            --background-dark: #1e1e1e;
-            --text-dark: #ffffff;
-        }
-
-        /* Dark mode styles (default) */
-        body {
-            background-color: var(--background-light);
-            color: var(--text-light);
-            position: relative;
-            /* Enable relative positioning */
-        }
-
-        /* Light mode styles (for optional toggling) */
-        /* .light-mode {
-            background-color: var(--background-light);
-            color: var(--text-light);
-        } */
-
-        /* Toggle mode button styles */
-        #theme-toggle {
-            position: absolute;
-            /* Positioning relative to the body */
-            top: 10px;
-            /* Adjust the top distance as needed */
-            right: 20px;
-            /* Adjust the right distance as needed */
-        }
-    </style>
-</head>
-
-<body>
-    <!-- Toggle mode button -->
-    <!-- <button id="theme-toggle">Toggle Dark Theme</button> -->
-
-    <!-- Rest of your webpage content -->
-    <p>Hello, my name is Savar Sinha, and this is my personal website! I am
-        currently an undergraduate student at Caltech studying computer science
-        and physics, and I will be graduating in June 2026. You can learn more
-        about my academic background from my <a href="https://savarsinha123.github.io/about/">About</a>
-        page. Otherwise, feel free
-        to learn about my research and teaching experience, including my
-        extensive repertoire of high-quality lectures!
-    </p>
-
-    <!-- <script>
-        // JavaScript to toggle dark/light mode
-        const toggleButton = document.getElementById('theme-toggle');
-        toggleButton.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-        });
-    </script> -->
 </body>
 
 </html>
