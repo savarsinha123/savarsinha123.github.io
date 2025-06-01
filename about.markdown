@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+## Academic Background
+
 I am an undergraduate student at Caltech majoring in computer science in physics,
 graduating in June 2026.
 
@@ -19,3 +21,14 @@ Outside of research, I have also dabbled in teaching experience, which I have
 explored via both by serving as a teaching assistant for various introductory
 CS courses as well as by developing a wide array of high-quality lectures
 on popular topics based on my university curriculum.
+
+## Personal Background
+
+### Cello
+
+For the past 11 yrs, I have played the cello. Currently, I am playing in the
+Caltech Symphony Orchestra.
+
+### Indian Classical Music
+
+WIP
