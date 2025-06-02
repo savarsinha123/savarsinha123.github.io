@@ -22,7 +22,7 @@ explored via both by serving as a teaching assistant for various introductory
 CS courses as well as by developing a wide array of high-quality lectures
 on popular topics based on my university curriculum.
 
-## Personal Background
+<!-- ## Personal Background
 
 ### Cello
 
@@ -31,4 +31,4 @@ Caltech Symphony Orchestra.
 
 ### Indian Classical Music
 
-WIP
+WIP -->

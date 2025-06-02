@@ -1,0 +1,3 @@
+If you want to find minima layouts, just use
+
+`bundle show minima`

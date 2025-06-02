@@ -9,50 +9,106 @@ Here you can find an overview of my current and past research projects.
 ## Current Research  
 
 ### Hamiltonian Sparsity Testing *(2025 - )*
-**Keywords**: [Keyword1, Keyword2, Keyword3]  
+**Keywords**: hamiltonian testing, hamiltonian learning
+
 **Mentors**: Professor Yu Tong (Duke University), Professor John Preskill (California Institute of Technology) 
-**Description**:  
-A brief summary of the project (2-3 sentences). You can include goals, methods, and significance.  
+
+**Description**: A vital component of quantum device development is characterizing and
+calibrating its behavior. This can be accomplished by learning its Hamiltonian,
+taken to be a traceless, self-adjoint operator over $$(\mathbb C^2)^{\otimes n}$$,
+which can always be decomposed as follows:
+
+$$\begin{equation*}
+    H = \sum_{x \in \mathcal P_n} \lambda_x\sigma_x
+\end{equation*},$$
+
+where $$\mathcal P_n$$ denotes the group of $$n$$-qubit Pauli operators.
+
+While unconstrained learning is known to be computationally hard, it has been
+shown that imposing certain structural constraints, such as $$k$$-locality 
+(meaning that each Pauli acts non-trivially on at most $$k$$ qubits) or
+$$M$$-sparsity (meaning that the support of the Hamiltonian includes at most 
+$$M$$ Paulis), enable learning in polynomial time. Consequently, algorithms
+testing whether a given unknown Hamiltonian satisfies these properties are of
+utmost importance.
+
+In this project, we aim to develop a sparsity testing algorithm that achieves
+Heisenberg-limited scaling, meaning that the total evolution time scales as 
+$$\mathcal O(1/\epsilon)$$.
 
 🔗 **Related Links**:  
-- [Preprint/Paper](Link)  
-- [Code Repository](Link)  
-- [Project Website](Link)  
+- Senior Thesis (WIP)
 
 ---
 
 ### Phase Transitions in Projective Transverse Field Ising Models *(2024 - )*
-**Keywords**: [Keyword1, Keyword2]
+**Keywords**: PTIM, phase transitions, entanglement
 
 **Mentor**: Dr. Nat Tantivasadakarn (California Institute of Technology) 
 
-**Description**:
-Entanglement serves as a robust measure for characterizing transitions between topological phases. These transitions frequently arise in the 1D projective transverse field Ising model (PTIM), a quantum variant of the classical Ising model wherein nearest-neighbor and external field interactions correspond to stochastic projective measurements of Pauli $$ZZ$$ and $X$ on a qubit chain. In this study, we extend the PTIM to 4-level qudit chains featuring three non-commuting generalized Pauli operators to identify novel entanglement transitions. We efficiently simulate entanglement dynamics via a cluster model whose runtime scales linearly with system size. By averaging the entanglement entropy and mutual information across thousands of quantum trajectories for different probabilities of the three measurement types, we demonstrate the existence of three distinct entanglement phases whose transition lines meet at a critical point along the boundary of the phase diagram. Moreover, we illustrate that the scaling prefactor of the entanglement entropy along the transition lines is equivalent to that of the qubit model along all points except for the critical point, where this value doubles. We corroborate this by demonstrating that the averaged entanglement quantities computed for two coupled qubit PTIMs are identical to those of the 4-level qudit model. Future work will involve an alternative derivation of these observations from a conformal field theory perspective via a mapping to bond percolation. Furthermore, we suggest investigating the applications of these results to quantum error correction schemes in the context of syndrome measurements and projective errors.
+**Description**: Quantum error correction is an indispensable step towards scalable quantum computation. Errors and syndromes in quantum systems can be modeled as stochastic measurements, which act as non-commuting, competing projections. These measurements drive entanglement transitions between topological phases, delineating regimes where projective measurements either preserve or destroy quantum information.  These transitions are commonly studied via the 1D projective transverse field Ising model (PTIM), a quantum variant of the classical Ising model wherein nearest-neighbor and external field interactions correspond to stochastic projective measurements of Pauli $$ ZZ $$ and $$ X $$ on a qubit chain. In this study, we extend the PTIM to $$\mathbb Z_4$$ qudit chains featuring three non-commuting generalized Pauli operators to identify novel entanglement transitions. We efficiently simulate entanglement dynamics via a cluster model whose runtime scales linearly with system size. By averaging the entanglement entropy and mutual information across thousands of quantum trajectories for different probabilities of the three measurement types, we demonstrate the existence of three distinct entanglement phases whose transition lines meet at a critical point along the boundary of the phase diagram. 
+
+{% include side_by_side_images.html 
+  image1="/assets/images/entanglement_entropy.svg"
+  alt1="Entanglement Entropy"
+  caption1="Plot of half-chain entanglement entropy for different probabilities
+  of measurement."
+  image2="/assets/images/mutual_information.svg"
+  alt2="Mutual Information"
+  caption2="Plot of halfway mutual information for different probabilities
+  of measurement."
+%}
+
+Moreover, we illustrate that the scaling prefactor of the entanglement entropy along the transition lines is equivalent to that of the qubit model along all points except for the critical point, where this value doubles. We corroborate this by demonstrating that the averaged entanglement quantities computed for two coupled qubit PTIMs are identical to those of the 4-level qudit model. Future work will involve an alternative derivation of these observations from a conformal field theory perspective via a mapping to bond percolation in addition to an investigation of the applications of these results to quantum error correction schemes.
 
 🔗 **Related Links**:  
-- [Conference Poster](Link)  
+- [National Conference for Undergraduate Research 2025 Oral Presentation](/assets/NCUR_2025_Ising_PPT.pdf){:download="NCUR_2025_Ising_PPT.pdf"}
+- [Southern California Conference for Undergraduate Research 2024 Oral Presentation](/assets/SCCUR_2024_Ising_PPT.pdf){:download="SCCUR_2024_Ising_PPT.pdf"}
 
 ---  
 
 ## Past Research  
 
 ### Risk Factors for Metastatic Castration-Resistant Prostate Cancer (mCRPC) *(2023 - 2024)*  
+**Keywords**: mCRPC, cell-free DNA, androgen receptor
+
 **Mentor**: Dr. Aadel Chaudhuri (Washington University in St. Louis) 
 
-**Description**:  
+**Description**:
+Prostate cancer is the second leading cause of cancer death among American men, causing 34,700 deaths annually. While localized prostate cancers are highly responsive to androgen-directed therapies, some patients develop metastatic castration-resistant prostate cancer (mCRPC), which is resistant to these treatments. Previous tumor whole-genome sequencing studies highlighted aberrations in both the androgen receptor (AR) locus and the recently discovered AR enhancer region as genomic hallmarks of mCRPC. The Chaudhuri Lab sought to replicate these results using cell-free DNA (cfDNA) analysis as a less invasive alternative to tumor sequencing, developing the EnhanceAR-Seq liquid biopsy assay to detect alterations in the AR locus/enhancer in post-treatment mCRPC plasma samples, which were found to portend primary resistance to treatment with high accuracy. In this study, we perform epigenomic analysis of pretreatment patient cfDNA samples, including genome-wide methylation sequencing, nucleosome profiling, and stemness analysis via EM-Seq, Griffin, and CytoTRACE, respectively, to elucidate the underlying biology of mCRPC. We illustrate that pretreatment plasma cfDNA analysis can be used to risk-stratify patients, mCRPC transcriptional profiles can be predicted from cfDNA epigenomics, and higher-risk mCRPC patients have more stem-like signature profiles that correlate with worse survival outcomes.
+
+![Survival Plots](/assets/images/survival.png){: .center-image style="width: 60%; display: block; margin: 0 auto;" }
+
+*Genomic characterization of mCRPC plasma cfDNA. **A**, Genomic alterations detected in plasma cfDNA including the androgen receptor (AR) and the enhancer region upstream of AR in pre-ARSI and on-ARSI plasma collected from patients with mCRPC. PFS and OS Kaplan–Meier analysis according to AR/enhancer alteration status in plasma collected (**B** and **C**) before starting first-line ARSI treatment and (**D** and **E**) during first-line ARSI treatment. P values were calculated by the log-rank test, and HRs by the Mantel–Haenszel method. ARSI, androgen-receptor signaling inhibitor; cfDNA, cell-free DNA; mCRPC, metastatic castration-resistant prostate cancer; WT, wild-type. (figure from paper below)*
 
 🔗 **Related Links**:  
-- [Published Paper](https://aacrjournals.org/clincancerres/article/31/1/151/750722/Genomic-and-Epigenomic-Analysis-of-Plasma-Cell)  
+- [Published Paper](https://aacrjournals.org/clincancerres/article/31/1/151/750722/Genomic-and-Epigenomic-Analysis-of-Plasma-Cell)
+- [Southern California Conference for Undergraduate Research 2023 Oral Presentation](/assets/SCCUR_2023.pdf){:download="SCCUR_2023_mCRPC.pdf"}
+- [Summer Undergraduate Research Fellowship 2023 Oral Presentation](/assets/SCCUR_2023.pdf){:download="SURF_2023_mCRPC.pdf"}
+- [WashU Radiation Oncology Symposium 2023 Oral Presentation](/assets/SCCUR_2023.pdf){:download="RadOnc_2023_mCRPC.pdf"}
 
 ---
 
-### [Past Project Title 2] *(2020 - 2023)*  
-**Mentor**: Professor Jeremy Wideman (Arizona State University) 
-**Description**: 
-Brief explanation of the research.  
+### Evolution of Eukaryotic ATP Synthase *(2020 - 2023)* 
+**Keywords**: ATP synthase, eukaryotes, LECA
+
+**Mentor**: Professor Jeremy Wideman (Arizona State University)
+
+**Description**: Relatively little is known about ATP synthase structure in protists, and the investigated ones exhibit divergent structures distinct from yeast or animals. To clarify the subunit composition of ATP synthases across all eukaryotic lineages, we used homology detection techniques and molecular modeling tools to identify an ancestral set of 17 ATP synthase subunits. Most eukaryotes possess an ATP synthase comparable to those of animals and fungi, while some have undergone drastic divergence (e.g., ciliates, myzozoans, euglenozoans). Additionally, a ∼1 billion-year-old gene fusion between ATP synthase stator subunits was identified as a synapomorphy of the SAR (Stramenopila, Alveolata, Rhizaria) supergroup (stramenopile, alveolate, rhizaria). Our comparative approach highlights the persistence of ancestral subunits even amidst major structural changes. We conclude by urging that more ATP synthase structures (e.g., from jakobids, heteroloboseans, stramenopiles, rhizarians) are needed to provide a complete picture of the evolution of the structural diversity of this ancient and essential complex.
+
+![ATP Synthase Evolution](/assets/images/graphical_abstract.jpg){: .center-image style="width: 60%; display: block; margin: 0 auto;" }
+
+*Diagram showing the reconstructed evolution of ATP synthase from the Last
+Eukaryotic Common Ancestor (LECA) (figure from paper below).*
 
 🔗 **Related Links**:  
-- [Thesis/Dissertation](Link)  
+- [First-Author Paper](https://www.sciencedirect.com/science/article/pii/S2589004223007770)
+- Additional Journal Publications:
+    - [Euglenozoan Mitochondrial Genomes Paper](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01035-y)
+    - [Retarian Mitochondrial Genomes Paper](https://journals.asm.org/doi/10.1128/mbio.00302-23?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+    - [OSBP Evolutionary History Paper](https://journals.sagepub.com/doi/10.1177/25152564221150428)
+- International Society of Protistologists 2021 Poster Presentation
+- ASU Evolutionary Biology Symposium Oral Presentation
 
 ---  
 

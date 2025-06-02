@@ -1,0 +1,19 @@
+<!-- _includes/side_by_side_images.html -->
+<div class="side-by-side" style="display: flex; gap: 2%; margin: 1em 0;">
+    <div style="flex: 1 1 49%;">
+        <img src="{{ include.image1 | relative_url }}" alt="{{ include.alt1 }}" style="width: 100%; height: auto;">
+        {% if include.caption1 %}
+        <p style="text-align: center; font-style: italic; margin-top: 0.5em;">
+            {{ include.caption1 }}
+        </p>
+        {% endif %}
+    </div>
+    <div style="flex: 1 1 49%;">
+        <img src="{{ include.image2 | relative_url }}" alt="{{ include.alt2 }}" style="width: 100%; height: auto;">
+        {% if include.caption2 %}
+        <p style="text-align: center; font-style: italic; margin-top: 0.5em;">
+            {{ include.caption2 }}
+        </p>
+        {% endif %}
+    </div>
+</div>
