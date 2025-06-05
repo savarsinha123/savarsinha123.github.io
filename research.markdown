@@ -36,8 +36,8 @@ In this project, we aim to develop a sparsity testing algorithm that achieves
 Heisenberg-limited scaling, meaning that the total evolution time scales as 
 $$\mathcal O(1/\epsilon)$$.
 
-🔗 **Related Links**:  
-- Senior Thesis (WIP)
+🔗 **Related Links (WIP)**:  
+- Senior Thesis
 
 ---
 

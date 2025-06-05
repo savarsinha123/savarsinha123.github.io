@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+## Published Papers
+
 Here is a collection of all the papers I have published over the year. Here is
 my [Google Scholar](https://scholar.google.com/citations?user=T2ApEXgAAAAJ&hl=en) 
 and [ORCID](https://orcid.org/my-orcid?orcid=0000-0003-0155-0883) for reference.
@@ -19,3 +21,40 @@ First author publications are indicated with a ⭐.
 
 [1] Záhonová K, Lax G, **Sinha SD**, Leonard G, Richards TA, Lukěs J, Wideman JG. (2021) [Single-cell genomics unveils a canonical origin of the diverse mitochondrial genomes of euglenozoans](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01035-y). BMC Biology. 19: 103. doi: 10.1186/s12915-021-01035-y.
 
+## Oral Presentations
+
+Here are the oral presentations I have given over the years.
+
+[7] **Sinha SD** et al. (2025), Exploring Entanglement Transitions in the 4-Level Qudit Projective Transverse Field
+Ising Model. National Conference for Undergraduate Research 2025
+
+[6] **Sinha SD** et al. (2024), Exploring Entanglement Transitions in the 4-Level Qudit Projective Transverse Field
+Ising Model. Southern California Conference for Undergraduate Research 2024, Cal State San Bernadino
+
+[5] **Sinha SD** et al. (2023), Combinatorial genomic and epigenomic analysis of plasma cell-free DNA
+identifies stemness features associated with worse prognosis in high-risk metastatic castration resistant prostate
+cancer. Southern California Conference for Undergraduate Research 2023, Cal State Fullerton
+
+[4] **Sinha SD** et al. (2023), Combinatorial genomic and epigenomic analysis of plasma cell-free DNA
+identifies stemness features associated with worse prognosis in high-risk metastatic castration resistant prostate
+cancer. Summer Undergraduate Research Fellowship 2023 Conference, Caltech
+
+[3] **Sinha SD** et al. (2023) Combinatorial genomic and epigenomic analysis of plasma cell-free DNA
+identifies stemness features associated with worse prognosis in high-risk metastatic castration-resistant prostate
+cancer. 2023 Radiation Oncology Research Retreat, WashU School of Medicine.
+
+[2] **Sinha SD**, Wideman JG (2021) The persistence of homology: Diversity and evolution of eukaryotic ATP
+synthases. ASU CME Lab Meeting Presentation.
+
+[1] **Sinha SD**, Wideman JG (2020) Evolution of Eukaryotic ATP Synthase. ASU Evolutionary Biology
+Symposium 2020.
+
+## Poster Presentations
+
+Lastly, here are the poster presentations I have given.
+
+[2] **Sinha SD**, Muñoz-Gómez SA, Wideman JG (2021) The persistence of homology: Diversity and evolution of
+eukaryotic ATP synthases. International Society of Protistologists 2021.
+
+[1] Záhonová K, Lax G, **Sinha SD** et al. (2021) Single-cell genomics unveils a canonical origin of the diverse
+mitochondrial genomes of euglenozoans. International Society of Protistologists 2021.
