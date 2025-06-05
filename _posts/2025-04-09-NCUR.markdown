@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "National Conference for Undergraduate Research 2025"
+date:   2025-04-09 09:00:00 -0400
+categories: jekyll update
+---
+
+Today, I gave an oral presentation at the National Conference for Undergraduate 
+Research 2025 in Pittsburgh on phase transitions in the 4-Level qudit projective 
+transverse-field Ising model. While I was there, I also took the time to tour
+Carnegie Mellon University, including the School of Computer Science!
+
+{% include side_by_side_images.html 
+  image1="/assets/images/posts/NCUR.jpg"
+  alt1="NCUR 2025"
+  caption1=""
+  image2="/assets/images/posts/CMU.jpg"
+  alt2="CMU"
+  caption2=""
+%}
