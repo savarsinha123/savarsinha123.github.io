@@ -1,0 +1,19 @@
+/* /assets/css/custom.css */
+
+/* Navbar background */
+.site-header {
+    background-color: #000 !important;
+    /* black */
+}
+
+/* Navbar text */
+.site-nav a {
+    color: #fff !important;
+    /* white */
+}
+
+/* Optional: navbar text hover */
+.site-nav a:hover {
+    color: #ccc !important;
+    /* light gray on hover */
+}

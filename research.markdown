@@ -46,7 +46,7 @@ $$\mathcal O(1/\epsilon)$$.
 
 **Mentor**: Dr. Nat Tantivasadakarn (California Institute of Technology) 
 
-**Description**: Quantum error correction is an indispensable step towards scalable quantum computation. Errors and syndromes in quantum systems can be modeled as stochastic measurements, which act as non-commuting, competing projections. These measurements drive entanglement transitions between topological phases, delineating regimes where projective measurements either preserve or destroy quantum information.  These transitions are commonly studied via the 1D projective transverse field Ising model (PTIM), a quantum variant of the classical Ising model wherein nearest-neighbor and external field interactions correspond to stochastic projective measurements of Pauli $$ ZZ $$ and $$ X $$ on a qubit chain. In this study, we extend the PTIM to $$\mathbb Z_4$$ qudit chains featuring three non-commuting generalized Pauli operators to identify novel entanglement transitions. We efficiently simulate entanglement dynamics via a cluster model whose runtime scales linearly with system size. By averaging the entanglement entropy and mutual information across thousands of quantum trajectories for different probabilities of the three measurement types, we demonstrate the existence of three distinct entanglement phases whose transition lines meet at a critical point along the boundary of the phase diagram. 
+**Description**: Quantum error correction is an indispensable step towards scalable quantum computation. Errors and syndromes in quantum systems can be modeled as stochastic measurements, which act as non-commuting, competing projections. These measurements drive entanglement transitions between topological phases, delineating regimes where projective measurements either preserve or destroy quantum information.  These transitions are commonly studied via the 1D projective transverse field Ising model (PTIM), a quantum variant of the classical Ising model wherein nearest-neighbor and external field interactions correspond to stochastic projective measurements of Pauli $$ ZZ $$ and $$ X $$ on a qubit chain. In this study, we extend the PTIM to $$\mathbb Z_4$$ qudit chains featuring three non-commuting generalized Pauli operators to identify novel entanglement transitions.
 
 {% include side_by_side_images.html 
   image1="/assets/images/entanglement_entropy.svg"
@@ -59,11 +59,9 @@ $$\mathcal O(1/\epsilon)$$.
   of measurement."
 %}
 
-Moreover, we illustrate that the scaling prefactor of the entanglement entropy along the transition lines is equivalent to that of the qubit model along all points except for the critical point, where this value doubles. We corroborate this by demonstrating that the averaged entanglement quantities computed for two coupled qubit PTIMs are identical to those of the 4-level qudit model. Future work will involve an alternative derivation of these observations from a conformal field theory perspective via a mapping to bond percolation in addition to an investigation of the applications of these results to quantum error correction schemes.
-
-🔗 **Related Links**:  
-- [National Conference for Undergraduate Research 2025 Oral Presentation](/assets/NCUR_2025_Ising_PPT.pdf){:download="NCUR_2025_Ising_PPT.pdf"}
-- [Southern California Conference for Undergraduate Research 2024 Oral Presentation](/assets/SCCUR_2024_Ising_PPT.pdf){:download="SCCUR_2024_Ising_PPT.pdf"}
+🔗 **Related Links (WIP)**:  
+- National Conference for Undergraduate Research 2025 Oral Presentation
+- Southern California Conference for Undergraduate Research 2024 Oral Presentation
 
 ---  
 
