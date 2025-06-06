@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- if page.title -%}
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  {%- else -%}
+  <title>{{ site.title | escape }}</title>
+  {%- endif -%}
+
+  <link rel="icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon" />
+
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link type="application/atom+xml" rel="alternate" title="{{ site.title | escape }}"
+    href="{{ '/feed.xml' | relative_url }}">
+
+  {%- seo -%}
+</head>
