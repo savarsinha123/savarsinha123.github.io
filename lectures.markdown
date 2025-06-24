@@ -54,7 +54,7 @@ flow-networks (Ford-Fulkerson and Edmonds-Karp), branch and bound, linear progra
 - **Description**: This lecture series is planned to cover all the material in a
 year's worth of QM courses based on the material I learned in Ph 125ab at Caltech.
 - **Videos**: (WIP) episodes  
-- **Topics**: double-slit experiment, ...  
+- **Topics**: double-slit experiment, wavefunctions, Hilbert spaces, linear algebra, Schrödinger Equation, ...  
 
 [▶ Watch Playlist](https://youtube.com/playlist?list=PL22aiDTI7A6676lSQgiDLYT1jtjmPLdCB){: .btn .btn-primary }
 
@@ -66,7 +66,7 @@ year's worth of QM courses based on the material I learned in Ph 125ab at Caltec
 - **Description**: This lecture series is planned to cover all the material in the
 quantum algorithms course Ph/CS 219a which I took under Prof. Kitaev.
 - **Videos**: (WIP) episodes  
-- **Topics**: qubits, ...
+- **Topics**: qubits, quantum gates and circuits, Deutsch's Algorithm, ...
 
 [▶ Watch Playlist](https://youtube.com/playlist?list=PL22aiDTI7A65Pk54Bl86O9-q5oGxy7Fny){: .btn .btn-primary }
 
