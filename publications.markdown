@@ -11,6 +11,9 @@ my [Google Scholar](https://scholar.google.com/citations?user=T2ApEXgAAAAJ&hl=en
 and [ORCID](https://orcid.org/my-orcid?orcid=0000-0003-0155-0883) for reference.
 First author publications are indicated with a ⭐.
 
+[6] ⭐ **Sinha SD** and Tong Y (2025) [Improved Hamiltonian learning and sparsity testing through Bell sampling](https://arxiv.org/abs/2509.07937).
+arXiv (preprint). doi: 10.48550/arXiv.2509.07937
+
 [5] Chauhan PS, Alahi I, **Sinha SD**, et al. (2024) [Genomic and epigenomic analysis of plasma cell-free DNA identifies stemness features associated with worse survival in lethal prostate cancer](https://aacrjournals.org/clincancerres/article/31/1/151/750722/Genomic-and-Epigenomic-Analysis-of-Plasma-Cell). Clin Cancer Res 2024. doi: 10.1158/1078-0432.CCR-24-1658
 
 [4] ⭐ **Sinha SD**, Wideman JG (2023) [The persistent homology of mitochondrial ATP synthases](https://www.sciencedirect.com/science/article/pii/S2589004223007770). IScience, 26(5), 106700. doi: 10.1016/j.isci.2023.106700.
