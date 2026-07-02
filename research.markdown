@@ -8,10 +8,46 @@ Here you can find an overview of my current and past research projects.
 
 ## Current Research  
 
-### Hamiltonian Sparsity Testing *(2025 - )*
+### SPAM-Robust Lindbladian Learning *(2025 - Present)*
 **Keywords**: hamiltonian testing, hamiltonian learning
 
 **Mentors**: Professor Yu Tong (Duke University), Professor John Preskill (California Institute of Technology) 
+
+**Description**: A complete characterization of quantum device behavior requires
+an understanding of both its Hamiltonian and dissipative dynamics. Under
+Markovian assumptions, this behavior can fully be described by the Lindbladian,
+an operator that generates a quantum channel. The Lindbladian $\mathcal L$ can
+be written in the following form:
+
+$$\begin{equation*}
+    \mathcal L[\rho] = -i[H, \rho] + \sum_a L_a \rho L_a^\dag - \frac{1}{2}\{L_a^\dag L_a, \rho\}
+\end{equation*},$$
+where $$H$$ is the system Hamiltonian and the $$L_j$$'s are jump operators. The
+dynamics of an open system are related to the Lindbladian via the FGKSL equation:
+$$\begin{equation*}
+\dot \rho = \mathcal L[\rho] \implies \rho(t) = e^{t \mathcal L}\rho(0)
+\end{equation*}$$
+
+Writing the Lindbladian in its process matrix form:
+$$\mathcal L[\rho] = \sum_{i, j} \chi_{ij}P_i \rho P_j,$$
+where $$P_i$$ and $$P_j$$ are Paulis, we investigate how we can learn the
+coefficients $$\chi_{ij}$$ in $$\text{poly}(n, 1/\epsilon)$$ evolution time, under
+the assumption that the $$\chi$$-matrix is $$M$$-sparse, where $$M = \text{poly}(n)$$.
+
+Furthermore, we investigate how we can efficiently learn this Lindbladian in the
+presence of SPAM error, characterizing unlearnability via gauge degrees of
+freedom.
+
+🔗 **Related Links**:  
+- - [Senior Thesis (CaltechTHESIS)](https://thesis.caltech.edu/18488/)
+- - [Senior Thesis (Preprint)](https://arxiv.org/abs/2606.20706)
+
+---
+
+### Hamiltonian Sparsity Testing *(2025 - Present)*
+**Keywords**: hamiltonian testing, hamiltonian learning
+
+**Mentors**: Professor Yu Tong (Duke University)
 
 **Description**: A vital component of quantum device development is characterizing and
 calibrating its behavior. This can be accomplished by learning its Hamiltonian,
@@ -32,16 +68,18 @@ $$M$$ Paulis), enable learning in polynomial time. Consequently, algorithms
 testing whether a given unknown Hamiltonian satisfies these properties are of
 utmost importance.
 
-In this project, we aim to develop a sparsity testing algorithm that achieves
-Heisenberg-limited scaling, meaning that the total evolution time scales as 
-$$\mathcal O(1/\epsilon)$$.
+In this project, we developed the first sparsity testing algorithm that achieves
+the standard quantum limit, meaning that the $\epsilon$-dependence of the 
+total evolution time scales as $$\mathcal O(1/\epsilon^2)$$.
 
-🔗 **Related Links (WIP)**:  
-- Senior Thesis
+🔗 **Related Links**:  
+- - [Preprint](https://arxiv.org/abs/2509.07937)
 
 ---
 
-### Phase Transitions in Projective Transverse Field Ising Models *(2024 - )*
+## Past Research  
+
+### Phase Transitions in Projective Transverse Field Ising Models *(2024 - 2025)*
 **Keywords**: PTIM, phase transitions, entanglement
 
 **Mentor**: Dr. Nat Tantivasadakarn (California Institute of Technology) 
@@ -59,13 +97,11 @@ $$\mathcal O(1/\epsilon)$$.
   of measurement."
 %}
 
-🔗 **Related Links (WIP)**:  
+🔗 **Related Links**:  
 - National Conference for Undergraduate Research 2025 Oral Presentation
 - Southern California Conference for Undergraduate Research 2024 Oral Presentation
 
 ---  
-
-## Past Research  
 
 ### Risk Factors for Metastatic Castration-Resistant Prostate Cancer (mCRPC) *(2023 - 2024)*  
 **Keywords**: mCRPC, cell-free DNA, androgen receptor
