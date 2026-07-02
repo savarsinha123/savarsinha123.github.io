@@ -13,7 +13,7 @@ First author publications are indicated with a ⭐. Theses are indicated with a
 🌟.
 
 [7] 🌟 **Sinha SD** (2026) [Efficient and SPAM-Robust Ansatz-Free Lindbladian Learning](https://thesis.caltech.edu/18488/).
-CaltechTHESIS. doi: 10.7907/hprr-fq68
+CaltechTHESIS (Senior Thesis). doi: 10.7907/hprr-fq68
 
 [6] ⭐ **Sinha SD** and Tong Y (2025) [Improved Hamiltonian learning and sparsity testing through Bell sampling](https://arxiv.org/abs/2509.07937).
 arXiv (preprint). doi: 10.48550/arXiv.2509.07937
