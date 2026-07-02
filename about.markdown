@@ -6,16 +6,16 @@ permalink: /about/
 
 ## Academic Background
 
-I am an incoming CS PhD student at UChicago with research intersts in quantum
-computation and quantum complexity theory. I did my Bachelor's at Caltech, where 
-I majored in computer science and physics.
+I am an incoming CS PhD student at UChicago, where I will be researching quantum
+computation and quantum complexity theory under [Professor Bill Fefferman](https://www.billfefferman.com/). 
+I did my Bachelor's at Caltech, where I majored in computer science and physics.
 
 I have a research experience in quantum computation, quantum algorithms, and
 quantum information theory, which I have explored through my work under
 [Professor Nat Tantivasadakarn](https://www.pma.caltech.edu/people/nathanan-nat-tantivasadakarn) 
 (now at Stony Brook University) and [Professor Yu Tong](https://ece.duke.edu/people/yu-tong/) 
 (see "Research" for more information). I also did a senior thesis on Lindbladian 
-learning under 
+learning, during which I was co-advised by both
 [Professor John Preskill](https://www.preskill.caltech.edu/) and 
 [Professor Yu Tong](https://ece.duke.edu/people/yu-tong/).
 

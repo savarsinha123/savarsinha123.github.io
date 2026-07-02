@@ -22,8 +22,10 @@ be written in the following form:
 $$\begin{equation*}
     \mathcal L[\rho] = -i[H, \rho] + \sum_a L_a \rho L_a^\dagger - \frac{1}{2}\{L_a^\dagger L_a, \rho\}
 \end{equation*},$$
+
 where $$H$$ is the system Hamiltonian and the $$L_j$$'s are jump operators. The
 dynamics of an open system are related to the Lindbladian via the FGKSL equation:
+
 $$\begin{equation*}
 \dot \rho = \mathcal L[\rho] \implies \rho(t) = e^{t \mathcal L}\rho(0)
 \end{equation*}$$
