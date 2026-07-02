@@ -8,8 +8,8 @@ Here you can find an overview of my current and past research projects.
 
 ## Current Research  
 
-### SPAM-Robust Lindbladian Learning *(2025 - Present)*
-**Keywords**: hamiltonian testing, hamiltonian learning
+### Efficient and SPAM-Robust Ansatz-Free Lindbladian Learning *(2025 - Present)*
+**Keywords**: lindbladian, lindbladian learning, SPAM-robust, gauge freedom
 
 **Mentors**: Professor Yu Tong (Duke University), Professor John Preskill (California Institute of Technology) 
 
